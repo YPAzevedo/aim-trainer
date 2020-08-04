@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header><span>🎯</span><h1>Aim trainer</h1></header>
+    <div id="score-container">
+      <span>Score:</span>
+      <span id="score">0</span>
+    </div>
+    <div id="controls">
+      <button id="start">Start</button>
+      <button id="stop">stop</button>
+      <label>Target size(px):</label>
+      <input type="number" id="target-size" min="30" max="100"/>
+      <label>Speed(s):</label>
+      <input type="number" id="speed" min="0.5" max="5">
+    </div>
+
+    <div id="aim-trainer"></div>
+    <script src="target.js"></script>
+    <script src="aimtrainer.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
